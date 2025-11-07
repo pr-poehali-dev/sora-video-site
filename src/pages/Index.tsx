@@ -3,8 +3,10 @@ import Icon from "@/components/ui/icon";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white via-purple-50/30 to-white">
-      <div className="container mx-auto px-4 py-12 max-w-6xl">
+    <div className="min-h-screen relative overflow-hidden bg-white">
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(147,51,234,0.08),transparent_50%),radial-gradient(circle_at_70%_60%,rgba(219,39,119,0.06),transparent_50%),radial-gradient(circle_at_50%_90%,rgba(147,51,234,0.05),transparent_50%)]"></div>
+      <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(147,51,234,0.03)_1px,transparent_1px),linear-gradient(to_bottom,rgba(147,51,234,0.03)_1px,transparent_1px)] bg-[size:64px_64px]"></div>
+      <div className="relative container mx-auto px-4 py-12 max-w-6xl">
         
         <section className="min-h-[85vh] flex flex-col items-center justify-center text-center">
           <div className="inline-flex items-center gap-2 bg-purple-100 px-4 py-2 rounded-full mb-6 text-sm font-medium text-purple-700">
