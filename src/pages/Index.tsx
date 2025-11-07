@@ -73,20 +73,22 @@ const Index = () => {
                 </div>
               </div>
             </div>
-            <div className="order-1 md:order-2 bg-gradient-to-br from-primary/10 to-accent/10 rounded-3xl aspect-[4/3] flex items-center justify-center shadow-xl">
-              <div className="text-center p-8">
-                <Icon name="Video" size={80} className="text-primary/40 mx-auto mb-4" />
-                <p className="text-muted-foreground">Место для изображения</p>
-              </div>
+            <div className="order-1 md:order-2 rounded-3xl aspect-[4/3] overflow-hidden shadow-xl">
+              <img 
+                src="https://cdn.poehali.dev/projects/6a43111c-0cda-408d-abd6-d7aaa42fb1ec/files/044189ac-db9e-450e-8981-3ca389cbafac.jpg" 
+                alt="AI video generation interface"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
 
           <div className="grid md:grid-cols-2 gap-16 items-center mb-24">
-            <div className="bg-gradient-to-br from-accent/10 to-primary/10 rounded-3xl aspect-[4/3] flex items-center justify-center shadow-xl">
-              <div className="text-center p-8">
-                <Icon name="Crown" size={80} className="text-primary/40 mx-auto mb-4" />
-                <p className="text-muted-foreground">Место для изображения</p>
-              </div>
+            <div className="rounded-3xl aspect-[4/3] overflow-hidden shadow-xl">
+              <img 
+                src="https://cdn.poehali.dev/projects/6a43111c-0cda-408d-abd6-d7aaa42fb1ec/files/fdb54883-7467-4f9d-b166-5ee154b18873.jpg" 
+                alt="Premium features"
+                className="w-full h-full object-cover"
+              />
             </div>
             <div>
               <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
@@ -135,11 +137,12 @@ const Index = () => {
                 </div>
               </div>
             </div>
-            <div className="order-1 md:order-2 bg-gradient-to-br from-primary/10 to-accent/10 rounded-3xl aspect-[4/3] flex items-center justify-center shadow-xl">
-              <div className="text-center p-8">
-                <Icon name="Wand2" size={80} className="text-primary/40 mx-auto mb-4" />
-                <p className="text-muted-foreground">Место для изображения</p>
-              </div>
+            <div className="order-1 md:order-2 rounded-3xl aspect-[4/3] overflow-hidden shadow-xl">
+              <img 
+                src="https://cdn.poehali.dev/projects/6a43111c-0cda-408d-abd6-d7aaa42fb1ec/files/2b453964-85fc-426b-b383-8fdb8f5ec679.jpg" 
+                alt="Simple interface"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </section>
